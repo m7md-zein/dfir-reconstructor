@@ -1,0 +1,4 @@
+python-evtx
+pandas
+pyarrow
+pytest
